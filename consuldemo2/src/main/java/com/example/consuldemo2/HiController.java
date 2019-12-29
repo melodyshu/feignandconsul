@@ -1,4 +1,4 @@
-package com.example.consuldemo;
+package com.example.consuldemo2;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -9,6 +9,6 @@ public class HiController {
 
     @GetMapping("/hi")
     public String home(@RequestParam String name){
-        return "hi "+name+",from 8763";
+        return "hi "+name+",from 8764";
     }
 }
